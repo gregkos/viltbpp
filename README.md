@@ -28,5 +28,6 @@ This is intended to be run with [Valet](https://laravel.com/docs/valet). However
 - Run `composer install`
 - Copy over the `.env.example` file and populate as needed
 - Run `php artisan key:generate` to generate a unique key
+- Initialize the database with `php artisan migrate`
 - Install and build your frontend with `npm install && npm run build`
 - Use `./vendor/bin/pint`, `./vendor/bin/phpstan`, and `./vendor/bin/pest` as needed
